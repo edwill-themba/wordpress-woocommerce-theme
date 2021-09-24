@@ -1,0 +1,440 @@
+/*
+Theme Name: MET 
+Theme URI: http://met-themes.com/themes/met
+Author: Mpepho Themba
+Author URI: http://met-themes.com/
+Description: This is a small theme for an online store for selling different kinds of products.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: met
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    font-family:Roboto;
+    font-weight:800;
+    line-height: 1.7;
+}
+header{
+    height:70px;
+    background-color: #343a40;
+}
+/** logo **/
+.logo{
+    position: absolute;
+    margin-top:18px;
+    z-index:10;
+}
+/**  Menu **/
+a:hover{
+    color: #ffc107;
+}
+
+.menu{
+    margin-top:0px;
+    margin-right:50px;
+}
+.menu li{
+    list-style: none;
+    display:inline;
+    margin:30px 5px;
+}
+.menu a{
+    color:#fff;
+    font-family:"Roboto";
+    font-weight:700;
+    font-size:18px; 
+}
+.menu a:hover{
+    color:#ffc107;
+    text-decoration:none;
+}
+/** Navigation **/
+.navigation{
+    margin-top:19px;
+    float:right;
+    margin-right: 50px;
+}
+/** Brand **/
+.brand{
+    font-family:"Roboto";
+    font-weight:700; 
+    font-size:22px;
+    color: #fff;
+    margin-top:20px;
+    margin-left:100px;
+}
+.brand:hover{
+    text-decoration:none;
+    color: #ffc107;
+}
+/** Hero **/
+.hero{
+    height:350px;
+   /* background: #ccc url('images/hero.jpg') no-repeat center center; */
+    background-size: cover;
+    text-align:center;
+    margin:0px;
+    padding: 110px 0px;
+}
+.hero h1{
+    color:#fff;
+    font-family:Roboto;
+    font-weight: 500;
+}
+.hero h6{
+    color:#fff;
+    font-family:Roboto;
+    font-weight: 500;
+    font-size:20px;
+}
+.hero p{
+    color:#fff;
+    font-family:Roboto;
+    font-weight:500;
+    font-size:18px;
+    margin-top:5px; 
+}
+.hero p span{
+    margin-left:7px;
+}
+.hero .icons{
+    margin-left: 7px;
+    color:#ffc107;
+}
+.all-products{
+    display:flex;
+    flex-direction: column;
+}
+.box h1{
+    text-align: left;
+}
+.box{
+    margin-top:20px;
+    padding:15px;
+    text-align: center;
+}
+.latest-products{
+    display:flex;
+    justify-content: center;
+}
+/** Single Product**/
+.single-product{
+   margin:10px;
+   padding:10px;
+   text-align: center;
+  
+}
+.single-product h4{
+   color:#343a40;
+    font-family:Roboto;
+    font-weight: 700;
+    text-align:center;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+/** Body Content **/
+.body-content{
+    border: 1px #ccc solid;
+    padding:2px;
+    margin:10px 5px;
+    background-color: #d4b00c;
+}
+.body-content p{
+    font-family:"Roboto";
+    font-weight:300;
+    font-size: 1.1rem;
+    padding: 5px;
+    margin: 10px;
+}
+
+.body-content h4{
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 700;
+    background-color: #343a40;
+    margin:2px;
+    text-align: center;
+    font-size: 30px;
+}
+/** social media **/
+.social-media{
+    font-family:"Roboto";
+    font-weight:300;
+    font-size: 1.1rem;
+    padding:0px 5px;
+    text-align: center;
+}
+.social-media h4{
+    color:#343a40;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin:2px;
+    padding-left: 2px;
+    font-size: 30px;
+}
+.social-media-bar li{
+    margin:10px;
+    list-style: none;
+    display: inline;
+    
+}
+.social-media-bar li img{
+    margin:10px 5px;
+    height:60px;
+    width:60px;
+    
+}
+/** Footer **/
+footer{
+    margin-top:5px;
+    height: 450px;
+    background:#343a40;
+    color:#fff;
+}
+
+footer ul li{
+    list-style-type:none;
+}
+.additional-information{
+    display:flex;
+    padding:30px;
+    font-family: Roboto;
+    justify-content:space-between;
+    align-self: flex-start;
+    
+}
+.box-1{
+    margin-left:20px;
+    padding:5px 1px;
+    text-align: left;
+}
+.box-1 h5{
+    font-size: 25px;
+    color:#ffc107;
+}
+.box-1 ul{
+    padding-left:10px;
+}
+
+.box-2{
+    margin-left:50px;
+    padding:5px 1px;
+    text-align: left;
+}
+.box-2 h5{
+    font-size: 25px;
+    color:#ffc107;
+}
+.box-2 ul{
+    padding-left:10px;
+}
+.box-3{
+    margin-left:20px;
+    padding:5px 1px;
+    text-align: left;
+}
+.box-3 h5{
+    font-size: 25px;
+    color:#ffc107;
+}
+.box-3 ul{
+    padding-left:10px;
+}
+.box-4{
+    margin-right:20px;
+    padding:5px 1px;
+    text-align: left;
+}
+.box-4 h5{
+    font-size: 25px;
+    color:#ffc107;
+}
+.box-4 ul{
+    padding-left:10px;
+}
+/** page sidebar **/
+.page-sidebar{
+    font-family: Roboto;
+    font-weight: 700;
+    margin:10px 10px;
+    padding:10px;
+}
+.page-sidebar h4{
+    font-family: Roboto;
+    font-weight: 700;
+    margin:10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.page-sidebar ul li{
+    list-style:none;
+    text-decoration:none;
+}
+/** page title **/
+.page-title{
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+.page-image img{
+    width:350px;
+    height:350px;
+    margin-left:20px;
+    padding: 10px;
+}
+.calendar_wrap{
+    margin-top: 10px;
+    margin-left:20px;
+    padding:5px 10px;
+}
+.wp-calendar-table{
+    border:1px solid #ffc107;
+    font-family: Roboto;
+    font-size: 20px; 
+    padding:5px;
+    margin: 2px 5px;
+    width:auto;
+    height: auto;
+    box-shadow:10px 10px 10px #343a40;
+}
+.wp-calendar-nav{
+    color:#343a40;
+    font-size: 20;
+    font-weight: 700;
+}
+/** Woocommerce style**/
+.product_list_widget li{
+    list-style-type:none;
+    display: inline;
+}
+
+.product_list_widget img{
+    height: 200px;
+    width: 200px;
+}
+.product_list_widget span{
+    display:none;
+}
+.woocommerce-input-wrapper{
+    width: 100%;
+    display:block;
+}
+/** terms and conditions **/
+.terms-and-conditions{
+    background-color: #ffc107;
+    text-align:center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    font-style:oblique;
+    height:30px;
+    padding:5px;
+}
+/** comments section **/
+.comment-respond{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.comment-reply-title{
+    background-color: #343a40;
+    color: #fff;
+}
+.comment-form{
+    width: 100%;
+    margin:5px;
+    padding: 5px;
+    
+}
+.comment-form textarea{
+    width: 100%;
+}
+.comment-form input{
+    width: 100%;
+    color:#343a40;
+}
+.submit{
+    background-color: #ffc107;
+    color:#111;
+    border:1px solid #343a40;
+}
+.logged-in-as{
+    color:#343a40;
+    font-size:15px;
+}
+
+
+/** media query on small screens **/
+@media(max-width:960px){
+    .brand{
+       font-family:"Roboto";
+        font-weight:300; 
+        font-size:19px;
+        color: #fff;
+        margin-left:20px;
+        margin-top: 15px;
+    }
+    .menu{
+        display:none;
+    }
+    .menu li{
+        list-style: none;
+        display:inline;
+        margin:20px 2px;
+    }
+    .menu a{
+        color:#fff;
+        font-family:"Roboto";
+        font-weight:200;
+        font-size:15px; 
+    }
+    .body-content p{
+        font-family:"Roboto";
+        font-weight:100;
+        font-size:15px;
+        padding: 5px;
+        margin: 10px;
+    }
+    .additional-information{
+        display:flex;
+        padding:10px;
+        font-family: Roboto;
+        justify-content:space-between;
+        align-self: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box-2 h5{
+        font-size:18px;
+        color:#ffc107;
+    } 
+    .box-1 h5{
+        font-size:18px;
+        color:#ffc107;
+    } 
+    .box-3 h5{
+        font-size:18px;
+        color:#ffc107;
+    }
+    .box-4 h5{
+        font-size:18px;
+        color:#ffc107;
+    } 
+    /** Footer **/
+    footer{
+    margin-top:5px;
+    height:500px;
+    background:#343a40;
+    color:#fff;
+   }      
+}
+
+
