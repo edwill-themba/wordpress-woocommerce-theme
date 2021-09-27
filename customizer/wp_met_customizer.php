@@ -67,5 +67,53 @@
         'priority' => 5
        ));
        /** End Button Text **/
+       /** Telephone **/
+       $wp_customize->add_setting('tel', array(
+            'default' => '(013) 712 4642',
+            'type'    => 'theme_mod'
+            ));
+    
+           $wp_customize->add_control('tel', array(
+            'label'    => __('Telephone'),
+            'section'  => 'MET',
+            'priority' => 6
+           ));
+       /** End Telephone **/
+       /** Email **/
+       $wp_customize->add_setting('email', array(
+            'default' => 'info@met-powders.co.za',
+            'type'    => 'theme_mod'
+            ));
+    
+           $wp_customize->add_control('email', array(
+            'label'    => __('Email Address'),
+            'section'  => 'MET',
+            'priority' => 7
+           ));
+       /** End email **/
+       /** Body Content Heading **/
+          $wp_customize->add_setting('body_content_heading', array(
+            'default' => 'Fitness Information',
+            'type'    => 'theme_mod'
+            ));
+    
+           $wp_customize->add_control('body_content_heading', array(
+            'label'    => __('Content Heading'),
+            'section'  => 'MET',
+            'priority' => 8
+           ));
+       /** End Body Content Heading**/
+       /** Content **/
+         $wp_customize->add_setting('content', array(
+            'default' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti necessitatibus adipisci dicta ratione iure harum dolore eligendi amet! Provident dignissimos doloremque harum obcaecati nesciunt nemo officia inventore ea velit nostrum!Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            'type'    => 'theme_mod'
+            ));
+    
+           $wp_customize->add_control('content', array(
+            'label'    => __('Content'),
+            'section'  => 'MET',
+            'priority' => 9
+           ));
+       /** End Content **/
  }
  add_action('customize_register','wp_met_powders_theme_customizer');
